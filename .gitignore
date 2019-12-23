@@ -1,0 +1,58 @@
+# VST SDK folder
+vstsdk2.4/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# Hidden files
+.*
+!*/.gitkeep
+!.gitignore
+
+# Build and scratch directories
+scratch/
+*/scratch
+build/
+cmake-build-debug/
+cmake-build-release/
+third-party/install/
+
+# Windows folders
+*.ini
+
+# Python pyc
+*.pyc
+
+# CMake's compile_commnads used by clang-tools
+compile_commands.json
+
